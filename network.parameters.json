@@ -19,9 +19,6 @@
     },
     "vmsubnetName": {
       "value": "vmsubnet"
-    },
-    "location": {
-      "value": "[resourceGroup().location]"
     }
   }
 }
