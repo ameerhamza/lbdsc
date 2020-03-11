@@ -76,7 +76,8 @@
               "access": "Allow",
               "priority": 100,
               "protocol": "Tcp",
-              "destinationPortRange": "80"
+              "destinationPortRange": "80",
+              "destinationAddressPrefix": "*"
             }
           },
           {
@@ -89,7 +90,8 @@
               "access": "Allow",
               "priority": 200,
               "protocol": "Tcp",
-              "destinationPortRange": "3389"
+              "destinationPortRange": "3389",
+              "destinationAddressPrefix": "*"
             }
           }
         ]
